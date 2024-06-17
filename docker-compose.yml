@@ -1,0 +1,154 @@
+# Версия docker-compose
+version: '3'
+# Список наших сервисов (контейнеров)
+services:
+    node-webpack-ejs:
+        restart: always
+        build:
+            context: .
+            dockerfile: ./images/node/Dockerfile
+        volumes:
+            - /app/node_modules
+            - ./www-client:/app
+        ports:
+            - "3001:3000"
+        depends_on:
+            - redis
+            - mongo
+        networks:
+            - main_network
+    nginx:
+        # используем последний стабильный образ nginx
+        build: ./images/nginx
+        # маршрутизируем порты
+        ports:
+            - "81:80"
+            - "443:443"
+        # монтируем директории, слева директории на основной машине, справа - куда они монтируются в контейнере
+        volumes:
+            - ./hosts:/etc/nginx/conf.d
+            - ./www:/var/www
+            - ./logs/nginx:/var/log/nginx
+            - ./hosts/htpasswd:/etc/nginx/htpasswd
+            #- ./images/nginx/test-nginx-selfsigned.crt:/etc/ssl/certs/test-nginx-selfsigned.crt
+            #- ./images/nginx/test-nginx-selfsigned.key:/etc/ssl/private/test-nginx-selfsigned.key
+        # nginx должен общаться с php контейнером
+        #links:
+        #    - php
+        depends_on:
+            - php
+        networks:
+            - main_network
+
+    php:
+        # у нас свой образ для PHP, указываем путь к нему и говорим что его надо собрать
+        build: ./images/php
+        # этот образ будет общаться с mysql
+        links:
+            - mysql
+        # монтируем директорию с проектами
+        volumes:
+            - ./www:/var/www
+        #command:  bash -c "composer install --ignore-platform-reqs"
+        #command: bash -c "composer self-update"
+        networks:
+            - main_network
+    mysql:
+        build: ./images/mysql
+        ports:
+            - "3306:3306"
+        volumes:
+         - ./etc/mysql/my.cnf:/etc/mysql/my.cnf
+         - ./logs/mysql:/var/log/mysql
+         - ./mysql:/var/lib/mysql
+         - ./mysql-files:/var/lib/mysql-files
+         #- dbdata:/var/lib/mysql
+         - ./data:/docker-entrypoint-initdb.d
+        # задаем пароль для root пользователя
+        # заливку дампа сайта и создание пользователя для доступа к базе снаружи будем делать позже 
+        environment:
+            - MYSQL_ROOT_PASSWORD=132
+            - MYSQL_DATABASE=cyber_sc
+            - MYSQL_USER=axer
+            - MYSQL_PASSWORD=132
+        networks:
+            - main_network
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links:
+            - mysql:db
+        ports:
+            - 8765:80
+        environment:
+            MYSQL_ROOT_PASSWORD: 132
+        depends_on:
+            - mysql
+        networks:
+            - main_network
+
+    redis:
+        build: ./images/redis
+        container_name: session
+        ports:
+            - "6379:6379"
+        networks:
+            - main_network
+
+    redis-commander:
+        image: rediscommander/redis-commander:latest
+        restart: always
+        environment:
+            - REDIS_HOSTS=local:redis:6379
+        ports:
+            - "8081:8081"
+        networks:
+            - main_network
+
+    mongo:
+        image: mongo:5.0
+        container_name: mongo
+        #environment:
+        #    - MONGO_INITDB_ROOT_USERNAME=root
+        #    - MONGO_INITDB_ROOT_PASSWORD=password
+        restart: unless-stopped
+        ports:
+            - "27017:27017"
+        volumes:
+            - ./database/db:/data/db
+            - ./database/dev.archive:/Databases/dev.archive
+            - ./database/production:/Databases/production
+        networks:
+            - main_network
+
+    mongo-express:
+        image: mongo-express
+        container_name: mexpress
+        environment:
+        #    - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+        #    - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+        #    - ME_CONFIG_MONGODB_URL=mongodb://root:password@mongo:27017/?authSource=admin
+            - ME_CONFIG_MONGODB_URL=mongodb://mongo:27017
+            - ME_CONFIG_BASICAUTH_USERNAME=mexpress
+            - ME_CONFIG_BASICAUTH_PASSWORD=mexpress
+        links:
+            - mongo
+        restart: unless-stopped
+        ports:
+            - "8082:8081"
+        networks:
+            - main_network
+
+
+networks:
+    main_network:
+        driver: bridge
+
+volumes:
+    database:
+
+
+#Volumes
+#volumes:
+#    dbdata:
+#        driver: local

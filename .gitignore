@@ -1,0 +1,5 @@
+mysql/*
+database/*
+package-lock.json
+www-client/dist
+www-client/node_modules

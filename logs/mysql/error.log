@@ -1,0 +1,538 @@
+2023-01-12T15:36:38.668398Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-12T15:36:38.676699Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-12T15:36:38.676946Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-12T15:36:38.755977Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-12T15:36:40.956535Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-12T15:36:51.148500Z 4 [System] [MY-013381] [Server] Server upgrade from '80029' to '80031' started.
+2023-01-12T15:37:31.694434Z 4 [System] [MY-013381] [Server] Server upgrade from '80029' to '80031' completed.
+2023-01-12T15:37:31.845276Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-12T15:37:31.903260Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-12T15:37:32.201681Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-12T15:37:32.201838Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-12T15:37:32.209940Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-12T15:37:32.292841Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-12T15:37:32.293714Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-12T15:39:18.042772Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-12T15:39:20.094116Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-12T15:39:31.302486Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-12T15:39:31.312598Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-12T15:39:31.312851Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-12T15:39:31.378069Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-12T15:39:32.457343Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-12T15:39:33.186735Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-12T15:39:33.186925Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-12T15:39:33.189739Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-12T15:39:33.306957Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-12T15:39:33.307598Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-13T10:16:19.044865Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-13T10:16:20.272333Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-13T10:16:37.378890Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-13T10:16:37.383853Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:16:37.384100Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-13T10:16:37.437594Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-13T10:16:38.810475Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-13T10:16:40.052349Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-13T10:16:40.054260Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-13T10:16:40.064436Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:16:40.298559Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-13T10:16:40.300104Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-13T10:21:12.224461Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-13T10:21:13.241604Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-13T10:23:52.731468Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-13T10:23:52.743446Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:23:52.743623Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-13T10:23:52.803520Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-13T10:23:54.063840Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-13T10:23:54.804376Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-13T10:23:54.804554Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-13T10:23:54.809714Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:23:54.935470Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-13T10:23:54.935530Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-13T10:49:46.837596Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-13T10:49:46.852561Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:49:46.852900Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-13T10:49:46.921839Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-13T10:49:48.536008Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-13T10:49:49.586244Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-13T10:49:49.651790Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-13T10:49:49.919458Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-13T10:49:49.919770Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-13T10:49:49.940435Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T10:49:50.323159Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-13T10:49:50.326131Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-13T12:16:30.758664Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-13T12:16:32.364683Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-13T12:17:10.283249Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-13T12:17:10.295097Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T12:17:10.295394Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-13T12:17:10.351150Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-13T12:17:11.930509Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-13T12:17:13.172794Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-13T12:17:13.173237Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-13T12:17:13.180338Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T12:17:13.393856Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-13T12:17:13.395072Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-13T16:33:02.883943Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-13T16:33:04.082524Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-13T16:33:14.211028Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-13T16:33:14.222722Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T16:33:14.222929Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-13T16:33:14.262034Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-13T16:33:15.276812Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-13T16:33:16.149903Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-01-13T16:33:16.150146Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-01-13T16:33:16.155120Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-13T16:33:16.253645Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-13T16:33:16.254296Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T16:33:26.651947Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T16:33:26.659696Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T16:33:26.659788Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T16:33:26.702839Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T16:33:27.017912Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T16:33:27.203056Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-20T16:33:27.209489Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-20T16:33:27.285572Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T16:33:27.285626Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T16:33:27.285688Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T16:33:27.285737Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T16:33:27.289474Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T16:33:27.317751Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T16:33:27.317895Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T16:33:27.318018Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T18:53:09.466210Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T18:53:10.848434Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:06:50.946790Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:06:50.947629Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:06:50.947677Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:06:50.959709Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:06:51.524413Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:06:51.751647Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:06:51.751684Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:06:51.752398Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:06:51.752856Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:06:51.755963Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:06:51.830113Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:06:51.830310Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:06:51.830380Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:08:31.245264Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:08:32.258923Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:08:36.850369Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:08:36.851328Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:08:36.851376Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:08:36.861651Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:08:37.250110Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:08:37.520315Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:08:37.520349Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:08:37.520410Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:08:37.520451Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:08:37.521980Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:08:37.549125Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:08:37.549244Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:08:37.549345Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:12:45.096855Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:12:45.856632Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:12:58.236891Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:12:58.238015Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:12:58.238070Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:12:58.252101Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:12:58.563087Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:12:58.855188Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:12:58.855226Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:12:58.855263Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:12:58.855298Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:12:58.856490Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:12:58.881127Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:12:58.881262Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:12:58.881302Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:16:26.607218Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:16:27.103454Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:16:33.328948Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:16:33.330075Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:16:33.330150Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:16:33.337764Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:16:33.694188Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:16:34.001165Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:16:34.001210Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:16:34.001297Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:16:34.001339Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:16:34.004980Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:16:34.088152Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:16:34.088331Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:16:34.088397Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:24:32.561366Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:24:33.625781Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:24:46.670455Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:24:46.671355Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:24:46.671404Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:24:46.691019Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:24:47.036405Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:24:47.419018Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:24:47.419073Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:24:47.420968Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:24:47.421031Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:24:47.422974Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:24:47.477109Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:24:47.477266Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:24:47.477528Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:32:25.834552Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:32:26.573009Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:32:31.007272Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:32:31.008274Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:32:31.008435Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:32:31.028070Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:32:31.372349Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:32:31.581326Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:32:31.581369Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:32:31.581442Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:32:31.581511Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:32:31.585380Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:32:31.632726Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:32:31.632901Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:32:31.632964Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T19:51:46.498115Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T19:51:47.795486Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T19:51:52.206491Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T19:51:52.213041Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:51:52.213107Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T19:51:52.217818Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T19:51:52.567182Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T19:51:52.775251Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T19:51:52.775311Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T19:51:52.775360Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:51:52.775406Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T19:51:52.776664Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T19:51:52.801610Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T19:51:52.801777Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T19:51:52.801821Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T20:01:08.329607Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T20:01:09.690102Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T20:01:14.109423Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T20:01:14.110810Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T20:01:14.110913Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T20:01:14.119315Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T20:01:14.391595Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T20:01:14.673968Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T20:01:14.674019Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T20:01:14.674122Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T20:01:14.676165Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T20:01:14.677988Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T20:01:14.702792Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T20:01:14.703215Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-20T20:01:14.703830Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T20:02:06.573004Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-20T20:02:08.078975Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-20T20:02:47.961674Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-20T20:02:47.969338Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T20:02:47.969401Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-20T20:02:47.992548Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-20T20:02:48.272500Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-20T20:02:48.446004Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-20T20:02:48.446046Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-20T20:02:48.446166Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T20:02:48.446252Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-20T20:02:48.448171Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-20T20:02:48.471032Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-20T20:02:48.471181Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-20T20:02:48.471201Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-22T09:29:28.530856Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-22T09:29:28.540978Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-22T09:29:28.541057Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-22T09:29:28.583161Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-22T09:29:29.166654Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-22T09:29:29.401483Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-22T09:29:29.410594Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-22T09:29:29.491794Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-22T09:29:29.491857Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-22T09:29:29.491919Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-22T09:29:29.492483Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-22T09:29:29.498284Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-22T09:29:29.546965Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-22T09:29:29.547094Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-22T09:29:29.547220Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-22T09:32:49.294381Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-22T09:32:49.946321Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-22T09:32:56.315802Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-22T09:32:56.338773Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-22T09:32:56.338979Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-22T09:32:56.392189Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-22T09:32:57.286513Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-22T09:32:58.029952Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-22T09:32:58.030187Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-22T09:32:58.030319Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-22T09:32:58.030443Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-22T09:32:58.032854Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-22T09:32:58.131855Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-22T09:32:58.132479Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-22T09:32:58.133111Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-23T12:31:26.556755Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-23T12:31:27.308943Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-23T13:12:50.647584Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-23T13:12:50.652995Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-23T13:12:50.653085Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-23T13:12:50.672669Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-23T13:12:51.256247Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-23T13:12:51.602666Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-23T13:12:51.602744Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-23T13:12:51.602840Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-23T13:12:51.602962Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-23T13:12:51.605809Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-23T13:12:51.701837Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-23T13:12:51.702290Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-23T13:12:51.702429Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-25T11:09:38.422638Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-25T11:09:38.428694Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-25T11:09:38.428766Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-25T11:09:38.479552Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-25T11:09:38.997899Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-25T11:09:39.270443Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-01-25T11:09:39.287039Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-01-25T11:09:39.373226Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-25T11:09:39.373332Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-25T11:09:39.373410Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-25T11:09:39.374078Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-25T11:09:39.381055Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-25T11:09:39.443998Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-25T11:09:39.444256Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-25T11:09:39.444282Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-26T13:11:27.273345Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-26T13:11:29.086615Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-26T18:23:21.307535Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-26T18:23:21.314471Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-26T18:23:21.314558Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-26T18:23:21.346424Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-26T18:23:21.742899Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-26T18:23:22.277641Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-26T18:23:22.277685Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-26T18:23:22.277737Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-26T18:23:22.277784Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-26T18:23:22.278925Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-26T18:23:22.342984Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-26T18:23:22.343124Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-26T18:23:22.343463Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T16:25:53.015356Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T16:25:53.805623Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T16:27:24.393169Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T16:27:24.393989Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:27:24.394046Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T16:27:24.472770Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T16:27:24.866607Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T16:27:25.226339Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T16:27:25.226430Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T16:27:25.226629Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:27:25.226697Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:27:25.229495Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:27:25.274227Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T16:27:25.274447Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T16:27:25.274768Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T16:33:41.104094Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T16:33:41.676053Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T16:33:43.210810Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T16:33:43.215694Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:33:43.215765Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T16:33:43.221692Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T16:33:43.519212Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T16:33:43.961972Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T16:33:43.962028Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T16:33:43.962087Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:33:43.962167Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:33:43.970338Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:33:44.013360Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T16:33:44.013523Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T16:33:44.013714Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T16:57:31.086455Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T16:57:32.278832Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T16:57:38.900938Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T16:57:38.901920Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:57:38.901976Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T16:57:38.911418Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T16:57:39.185137Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T16:57:39.502380Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T16:57:39.502477Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T16:57:39.502761Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:57:39.502819Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T16:57:39.504625Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T16:57:39.547917Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T16:57:39.548186Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T16:57:39.548532Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:06:18.387859Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:06:19.209575Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:06:29.876977Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:06:29.888526Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:06:29.888598Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:06:29.900269Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:06:30.230499Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:06:30.658076Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:06:30.658117Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:06:30.658161Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:06:30.661236Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:06:30.669902Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:06:30.727467Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:06:30.727685Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:06:30.727910Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:29:42.990484Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:29:44.028638Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:29:49.740511Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:29:49.741672Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:29:49.741734Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:29:49.748945Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:29:50.149212Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:29:50.468438Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:29:50.468507Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:29:50.468781Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:29:50.468872Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:29:50.473915Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:29:50.507456Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:29:50.507592Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:29:50.507709Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:31:35.205965Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:31:35.872093Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:31:42.151162Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:31:42.154962Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:31:42.155051Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:31:42.166857Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:31:42.517636Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:31:43.014169Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:31:43.015574Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:31:43.015637Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:31:43.015696Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:31:43.018791Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:31:43.046430Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:31:43.046685Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:31:43.046618Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:42:53.781587Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:42:54.620210Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:43:01.435663Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:43:01.436739Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:43:01.436794Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:43:01.450251Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:43:01.872297Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:43:02.212115Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:43:02.212190Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:43:02.212250Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:43:02.212295Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:43:02.214414Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:43:02.236109Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:43:02.236252Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:43:02.236376Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:44:52.816359Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:44:53.686860Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:44:59.401401Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:44:59.414617Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:44:59.414740Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:44:59.431475Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:44:59.779038Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:45:00.169957Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:45:00.170105Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:45:00.172253Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:45:00.172386Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:45:00.175659Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:45:00.220760Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:45:00.221179Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-01-29T17:45:00.221244Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:50:46.064657Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-01-29T17:50:46.471089Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-01-29T17:50:51.706560Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-01-29T17:50:51.707530Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:50:51.707586Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-01-29T17:50:51.736779Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-01-29T17:50:52.354118Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-01-29T17:50:52.757612Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-01-29T17:50:52.757651Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-01-29T17:50:52.757701Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:50:52.757739Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-01-29T17:50:52.767206Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-01-29T17:50:52.849484Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-01-29T17:50:52.849639Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-01-29T17:50:52.849824Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T07:59:22.643708Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T07:59:23.490993Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-02-01T07:59:30.981858Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T07:59:30.995619Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T07:59:30.995718Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T07:59:31.074178Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T07:59:31.576967Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T07:59:32.102578Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T07:59:32.102617Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T07:59:32.102656Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T07:59:32.105055Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T07:59:32.113549Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T07:59:32.215289Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T07:59:32.215502Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T07:59:32.216557Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T09:49:16.116606Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T09:49:16.126200Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T09:49:16.126348Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T09:49:16.188880Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T09:49:16.817095Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T09:49:17.298271Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-02-01T09:49:17.321101Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-02-01T09:49:17.452946Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T09:49:17.453025Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T09:49:17.453180Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T09:49:17.453307Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T09:49:17.457882Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T09:49:17.548121Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T09:49:17.548601Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T09:49:17.549009Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T15:32:56.455397Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T15:32:57.385248Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-02-01T15:33:02.505297Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T15:33:02.506233Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:33:02.506277Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T15:33:02.521262Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T15:33:02.887236Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T15:33:03.105702Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T15:33:03.105732Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T15:33:03.105832Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:33:03.105875Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:33:03.107581Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:33:03.133131Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T15:33:03.133294Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T15:33:03.133293Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T15:35:44.113669Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T15:35:45.308786Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-02-01T15:35:52.000316Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T15:35:52.002101Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:35:52.002230Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T15:35:52.021255Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T15:35:52.541160Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T15:35:52.820698Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T15:35:52.820739Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T15:35:52.820799Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:35:52.820836Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:35:52.826274Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:35:52.874815Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T15:35:52.874927Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T15:35:52.875187Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T15:38:25.068509Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T15:38:26.374896Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-02-01T15:38:37.933979Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T15:38:37.935962Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:38:37.936022Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T15:38:37.944301Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T15:38:38.427100Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T15:38:38.921540Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T15:38:38.924356Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T15:38:38.924406Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:38:38.924462Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:38:38.930008Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:38:38.979768Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T15:38:38.980273Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T15:38:38.980420Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T15:39:55.361972Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T15:39:56.206091Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2023-02-01T15:40:01.746943Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2023-02-01T15:40:01.747802Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:40:01.747848Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.31) starting as process 1
+2023-02-01T15:40:01.793305Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-02-01T15:40:02.496831Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-02-01T15:40:02.935332Z 0 [Warning] [MY-013595] [Server] Failed to initialize TLS for channel: mysql_main. See below for the description of exact issue.
+2023-02-01T15:40:02.935360Z 0 [Warning] [MY-010069] [Server] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-02-01T15:40:02.935792Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:40:02.935849Z 0 [Warning] [MY-010284] [Server] RSA private key file not found: /var/lib/mysql//private_key.pem. Some authentication plugins will not work.
+2023-02-01T15:40:02.936487Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-02-01T15:40:02.969855Z 0 [Warning] [MY-011302] [Server] Plugin mysqlx reported: 'Failed at SSL configuration: "SSL context is not usable without certificate and private key"'
+2023-02-01T15:40:02.969982Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.31'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2023-02-01T15:40:02.970142Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2023-02-01T15:42:42.393042Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.31).
+2023-02-01T15:42:43.129141Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.

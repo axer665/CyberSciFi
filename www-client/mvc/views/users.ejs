@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список пользователей</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<a href="/users/create">Добавить пользователя</a>
+<h1>Список пользователей</h1>
+
+<%= user %>
+
+<table>
+    <tr><th>Имя</th><th>Возраст</th></tr>
+    <% if (typeof users !== "undefined") { %>
+        <% for(var i=0; i<users.length; i++) {%>
+            <tr>
+                <td><%= users[i].login %></td>
+                <td><%= users[i].age %></td>
+            </tr>
+        <% } %>
+    <% } %>
+</table>
+</body>
+<html>

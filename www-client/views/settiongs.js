@@ -1,0 +1,1 @@
+redis_host: process.env.redis_server_addr
